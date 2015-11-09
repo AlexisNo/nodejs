@@ -16,7 +16,7 @@ RUN mkdir -p /var/www && chown dev:dev /var/www
 # Install npm packages globally with user dev
 USER dev
 RUN echo "prefix = ~/.node" >> ~/.npmrc &&\
-    npm install -g node-gyp forever bower grunt-cli node-inspector longjohn debug
+    npm install -g node-gyp forever bower grunt-cli gulp-cli node-inspector longjohn debug
 ENV PATH $PATH:/home/dev/.node/bin/
 
 WORKDIR /var/www
