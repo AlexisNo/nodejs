@@ -11,6 +11,7 @@ Configuration
 Globally installed npm packages:
 
  * forever
+ * yo (yeoman)
  * bower
  * gulp
  * grunt-cli
