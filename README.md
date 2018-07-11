@@ -1,6 +1,8 @@
 Node.js docker image for development environment
 ================================================
 
+Not maintained
+
 A Docker Node.js image with some useful packages for development environments.
 Do not use it for production.
 
